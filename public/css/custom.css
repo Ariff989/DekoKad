@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+
+
+
+.bulb {
+  position: absolute;
+  background: #fdd;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  top: 35px;
+  left: 153px;
+  transform: translate(-50%, -50%);
+  box-shadow:
+    0 0 30px 10px #fff;
+}
+.star {
+  position: absolute;
+  background: #fdd;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  left: 50%;
+  box-shadow:
+    0 0 20px 5px #fff;
+  animation: twinkle 1s infinite
+}
+@keyframes twinkle {
+  0% {
+    box-shadow: 0 0 20px 5px #fff;
+  }
+  50% {
+    box-shadow: 0 0 30px 5px #fff;
+  }
+ 
+}
+.star1 {
+  top: 50px;
+  left: 70px;
+animation: twinkle1 1s infinite;
+  animation-delay: 0.5s;
+}
+@keyframes twinkle1 {
+  0% {
+    box-shadow: 0 0 20px 5px #fff;
+  }
+  50% {
+    box-shadow: 0 0 30px 5px #fff;
+  }
+ 
+}
+.star2 {
+  top: 150px;
+  left: 700px;
+animation: twinkle2 1s infinite;
+  animation-delay: 0.7s;
+}
+@keyframes twinkle2 {
+  0% {
+    box-shadow: 0 0 20px 5px #fff;
+  }
+  50% {
+    box-shadow: 0 0 30px 5px #fff;
+  }
+ 
+}
+
+.star3 {
+  top: 400px;
+  left: 220px;
+animation: twinkle3 1.5s infinite;
+  animation-delay: 0.15s;
+}
+@keyframes twinkle3 {
+  0% {
+    box-shadow: 0 0 15px 5px #fff;
+  }
+ 
+  50% {
+    box-shadow: 0 0 30px 5px #fff;
+  }
+ 
+   100% {
+    box-shadow: 0 0 15px 5px #fff;
+  }
+}
